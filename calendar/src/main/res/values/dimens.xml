@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="titleHeight">36dp</dimen>
+    <dimen name="titleTextSize">20sp</dimen>
+    <dimen name="weekTextSize">12sp</dimen>
+    <dimen name="dayTextSize">16sp</dimen>
+    <dimen name="subTextSize">10sp</dimen>
+</resources>

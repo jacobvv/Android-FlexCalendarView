@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="CalendarWidget">
+
+        <attr name="cal_showMode">
+            <flag name="other" value="1" />
+            <flag name="lunar" value="2" />
+            <flag name="holiday" value="4" />
+        </attr>
+        <attr name="cal_calendarMode" format="enum">
+            <enum name="month" value="0" />
+            <enum name="week" value="1" />
+        </attr>
+
+        <attr name="cal_titleVisible" format="boolean" />
+        <attr name="cal_allowClickOther" format="boolean" />
+        <attr name="cal_isPagingEnabled" format="boolean" />
+
+        <attr name="cal_titleHeight" format="dimension" />
+        <attr name="cal_weekHeight" format="dimension" />
+        <attr name="cal_cellHeight" format="dimension" />
+
+        <attr name="cal_titleTextSize" format="dimension" />
+        <attr name="cal_weekTextSize" format="dimension" />
+        <attr name="cal_dayTextSize" format="dimension" />
+        <attr name="cal_subTextSize" format="dimension" />
+
+        <attr name="cal_selectedColor" format="color" />
+        <attr name="cal_titleTextColor" format="color" />
+        <attr name="cal_weekTextColor" format="color" />
+        <attr name="cal_dayTextColor" format="color" />
+        <attr name="cal_subTextColor" format="color" />
+        <attr name="cal_todayTextColor" format="color" />
+
+        <attr name="cal_arrowColor" format="color" />
+        <attr name="cal_leftArrowMask" format="reference" />
+        <attr name="cal_rightArrowMask" format="reference" />
+
+        <attr name="cal_firstDayOfWeek" format="enum">
+            <enum name="sunday" value="1" />
+            <enum name="monday" value="2" />
+            <enum name="tuesday" value="3" />
+            <enum name="wednesday" value="4" />
+            <enum name="thursday" value="5" />
+            <enum name="friday" value="6" />
+            <enum name="saturday" value="7" />
+        </attr>
+
+    </declare-styleable>
+
+</resources>
